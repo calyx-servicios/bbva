@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_asset_not_amortize_form" model="ir.ui.view">
+        <field name="model">account.asset</field>
+        <field name="inherit_id" ref="account_asset_management.account_asset_view_form"/>
+        <field name="arch" type="xml">
+             <xpath expr="//field[@name='does_not_amortize']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='date_remove']" position="after">
+                <field name="does_not_amortize"/>
+            </xpath>
+            <xpath expr="//field[@name='code']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='sub_code']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
