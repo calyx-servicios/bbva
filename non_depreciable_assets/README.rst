@@ -1,11 +1,10 @@
-===========
-Module Name
-===========
+======================
+Non Depreciable Assets
+======================
 
-.. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-   !! This file is intended to be in every module    !!
-   !! to explain why and how it works.               !!
-   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   !! This module makes the amortization tables not amortize. !!          !!
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 .. User https://shields.io for badge creation.
@@ -15,39 +14,19 @@ Module Name
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-calyx--servicios%2Fcalyx-lightgray.png?logo=github
-    :target: https://github.com/calyx-servicios/calyx.git
-    :alt: calyx-servicios/calyx.git
-
+.. |badge3| image:: https://img.shields.io/badge/github-calyx--servicios%2Fbbva-lightgray.png?logo=github
+    :target: https://github.com/calyx-servicios/bbva
+    :alt: calyx-servicios/bbva.git
 |badge1| |badge2| |badge3|
-
-.. !!! Description must be max 2-3 paragraphs, and is required.
-
-This module extends the functionality of ... to support ... and to allow you to ...
-
-**Table of contents**
 
 .. contents::
    :local:
 
-.. !!! Instalation: must only be present if there are very specific installation instructions, such as installing non-python dependencies.The audience is systems administrators. ] To install this module, you need to: !!!
-
-Install
-=======
-
-Do this ...
-
-.. !!! Configuration: This file is optional, it should explain how to configure the module before using it; it is aimed at advanced users. To configure this module, you need to:
-
-Configure
-=========
-
-Go to ...
 
 Usage
 =====
 
-1. Go to ...
+Go to Invoicing / Accounting / Assets / View and see the changes.
 
 Known issues / Roadmap
 ======================
@@ -71,11 +50,8 @@ Contributors
 ~~~~~~~~~~~~
 
 * `Calyx Servicios S.A. <https://odoo.calyx-cloud.com.ar/>`_
-  
-  * Federico Gregori
-  * Cristian Paradiso
-  * Gabriela Perez
-  * Marco Oegg
+
+  * Carla Miquetan
 
 Maintainers
 ~~~~~~~~~~~
@@ -89,4 +65,4 @@ This module is maintained by Calyx Servicios S.A.
 CALYX SERVICIOS S.A. is part of the PGK Consultores economic group, member of an important global network, a world organization.
 The PGK Consultores group is one of the 20 largest consultant-studios in Argentina with nearly 300 professionals.
 
-This module is part of the `Calyx <https://github.com/calyx-servicios/calyx.git>`_ project on GitHub.
+This module is part of the `Account Financial Tools <https://github.com/calyx-servicios/account-financial-tools.git>`_ project on GitHub.

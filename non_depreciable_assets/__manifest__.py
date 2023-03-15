@@ -3,7 +3,7 @@
 {
     "name": "Non Depreciable Assets",
     "summary": """
-        This module makes the amortization tables not amortize
+        This module makes the amortization tables not amortize.
     """,
     "author": "Calyx Servicios S.A.",
     "maintainers": ["carlamiquetan"],
@@ -19,11 +19,4 @@
                 "account_asset_batch_compute",
                 "account_asset_management_menu",
                 ],
-
-    ### XML Data files
-    # 'data': [
-    #     'security/ir.model.access.csv',
-    #     'views/views.xml',
-    #     'views/templates.xml',
-    # ],
 }
