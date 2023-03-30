@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="view_asset_code_tree" model="ir.ui.view">
+        <field name="model">account.asset</field>
+        <field name="inherit_id" ref="account_asset_management.account_asset_view_tree"/>
+        <field name="arch" type="xml">
+            <field name="code" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="fixed_active_code"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

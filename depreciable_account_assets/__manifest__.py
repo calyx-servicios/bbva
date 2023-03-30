@@ -17,6 +17,7 @@
     'data': [
         'views/asset_not_amortize.xml',
         'views/historical_asset_remove.xml',
+        'views/asset_code.xml',
     ],
 
 }
