@@ -1,11 +1,6 @@
 # Copyright 2022 Calyx
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
-from odoo.exceptions import UserError
-from dateutil.relativedelta import relativedelta
-from odoo import fields, models, _
-import logging
-logger = logging.getLogger(__name__)
-from odoo.exceptions import ValidationError
+from odoo import fields, models
 
 
 class AccountAsset(models.Model):
@@ -16,7 +11,7 @@ class AccountAsset(models.Model):
 
         self.compute_depreciation_inflation()
 
-        return True #Retornar error correctamente
+        return True
 
     def compute_depreciation_inflation(self):
         for asset in self:

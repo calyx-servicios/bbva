@@ -14,9 +14,9 @@ Depreciable Account Assets
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-calyx--servicios%2Faccount--financial--tools-lightgray.png?logo=github
-    :target: https://github.com/calyx-servicios/account-financial-tools.git
-    :alt: calyx-servicios/account-financial-tools.git
+.. |badge3| image:: https://img.shields.io/badge/github-calyx--servicios%2Fbbva-lightgray.png?logo=github
+    :target: https://github.com/calyx-servicios/bbva
+    :alt: calyx-servicios/bbva.git
 
 |badge1| |badge2| |badge3|
 
@@ -74,4 +74,4 @@ This module is maintained by Calyx Servicios S.A.
 CALYX SERVICIOS S.A. is part of the PGK Consultores economic group, member of an important global network, a world organization.
 The PGK Consultores group is one of the 20 largest consultant-studios in Argentina with nearly 300 professionals.
 
-This module is part of the `Account Financial Tools <https://github.com/calyx-servicios/account-financial-tools.git>`_ project on GitHub.
+This module is part of the `BBVA <https://github.com/calyx-servicios/bbva.git>`_ project on GitHub.

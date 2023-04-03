@@ -65,4 +65,4 @@ This module is maintained by Calyx Servicios S.A.
 CALYX SERVICIOS S.A. is part of the PGK Consultores economic group, member of an important global network, a world organization.
 The PGK Consultores group is one of the 20 largest consultant-studios in Argentina with nearly 300 professionals.
 
-This module is part of the `Account Financial Tools <https://github.com/calyx-servicios/account-financial-tools.git>`_ project on GitHub.
+This module is part of the `BBVA <https://github.com/calyx-servicios/bbva.git>`_ project on GitHub.
