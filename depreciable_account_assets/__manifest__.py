@@ -16,7 +16,6 @@
     "depends": ["base", "account_asset_management_menu", "account_asset_management",],
     'data': [
         'views/asset_not_amortize.xml',
-        'views/historical_asset_remove.xml',
         'views/asset_code.xml',
     ],
 
