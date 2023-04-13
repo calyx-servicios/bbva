@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_revaluation_adaptation_form" model="ir.ui.view">
+        <field name="model">account.asset</field>
+        <field name="inherit_id" ref="account_asset_revalue.view_account_asset_amortization_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='residual_value_closing']" position="after">
+                <field name="update_effect_vr"/>
+                <field name="updated_amortization"/>
+                <field name="amortization_update_effect"/>
+            </xpath>
+             <xpath expr="//field[@name='amortization']"  position="attributes">
+                 <attribute name="string">Revalued Amortization</attribute>
+             </xpath>
+        </field>
+    </record>
+</odoo>
