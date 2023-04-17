@@ -18,13 +18,13 @@ class AsseRevaluationWizard(models.TransientModel):
             logging.error(e)
 
         if self.excel:
-            self.env.ref("revaluation_report.revaluation_historical_report_xls").report_action(self)
+            self.env.ref("historical_assets_report.historical_asset_report_xls").report_action(self)
             return {
                 'binding_type': 'report',
-                'model': 'report.revaluation_report.revaluation_historical_report_xls',
+                'model': 'report.historical_assets_report.historical_asset_report_xls',
                 'name': 'sale',
-                'report_file': 'revaluation_report.revaluation_historical_report_xls',
-                'report_name': 'revaluation_report.revaluation_historical_report_xls',
+                'report_file': 'historical_assets_report.historical_asset_report_xls',
+                'report_name': 'historical_assets_report.historical_asset_report_xls',
                 'report_type': 'xlsx',
                 'type': 'ir.actions.report'
             }
@@ -114,7 +114,7 @@ class AsseRevaluationWizard(models.TransientModel):
             row = {
                 'date': a.date_to,
                 'name': a.account_asset_id.name,
-                'reference': a.account_asset_id.code,
+                'fixed_active_code': a.account_asset_id.fixed_active_code,
                 'profile_id': category.name,
                 'historical_source_value': a.historical_source_value,
                 'cpi_inflation_index': a.inflation_index,

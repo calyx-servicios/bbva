@@ -10,7 +10,7 @@
     "website": "https://odoo.calyx-cloud.com.ar/",
     "license": "AGPL-3",
     "category": "Technical Settings",
-    "version": "13.0.1.0.0",
+    "version": "13.0.2.0.1",
     "development_status": "Production/Stable",
     "application": False,
     "installable": True,
@@ -23,6 +23,7 @@
     'data': [
         'wizard/historical_asset_report.xml',
         'views/revaluation_historical_detail_view.xml',
+        "report/historical_asset_report_xls.xml",
     ],
 
 }
