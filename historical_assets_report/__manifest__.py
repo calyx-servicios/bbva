@@ -23,6 +23,7 @@
     'data': [
         'wizard/historical_asset_report.xml',
         'views/revaluation_historical_detail_view.xml',
+        "report/historical_asset_report_xls.xml",
     ],
 
 }
