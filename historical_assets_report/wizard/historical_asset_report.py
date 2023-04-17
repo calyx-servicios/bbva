@@ -135,7 +135,6 @@ class AsseRevaluationWizard(models.TransientModel):
             rows.append(row)
         if not rows:
             raise ValidationError(_('There are no lines loaded in the table for that period'))
-        print(rows)
         return rows
 
     def generate_entries_grouped(self):
