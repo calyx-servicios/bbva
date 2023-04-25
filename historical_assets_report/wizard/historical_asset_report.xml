@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="historical_asset_inherited_view" model="ir.ui.view">
+        <field name="name">historical.asset.inherited.view</field>
+        <field name="model">asset.revaluation.historical.wizard</field>
+        <field name="inherit_id" ref="revaluation_report.revaluation_historical_wizard_form"/>
+        <field name="arch" type="xml">
+        <field name="categories" position="before">
+             <field name="date_from"/>
+             <field name="date_to"/>
+        </field>
+             <xpath expr="//field[@name='period']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
