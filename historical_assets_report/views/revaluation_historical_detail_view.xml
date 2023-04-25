@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="revaluation_historical_detail_view" model="ir.ui.view">
+        <field name="model">account.asset.historical.report.detail</field>
+        <field name="inherit_id" ref="revaluation_report.view_account_assets_revaluation_historical_report"/>
+        <field name="arch" type="xml">
+              <xpath expr="//field[@name='profile_id']" position="before">
+                <field name="date_from"/>
+                <field name="date_to"/>
+            </xpath>
+              <xpath expr="//field[@name='period']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
