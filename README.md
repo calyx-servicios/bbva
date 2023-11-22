@@ -25,5 +25,5 @@ This file has the suggested Python Pylint package configuration. To install the 
 `pip3 install --upgrade git+https://github.com/oca/pylint-odoo.git`
 
 To disable errors that the developer doesn't want to consider, check the table here:
-
+	
 `https://github.com/OCA/pylint-odoo`
