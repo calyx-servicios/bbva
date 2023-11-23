@@ -27,3 +27,5 @@ This file has the suggested Python Pylint package configuration. To install the 
 To disable errors that the developer doesn't want to consider, check the table here:
 	
 `https://github.com/OCA/pylint-odoo`
+
+commit to rebuild
